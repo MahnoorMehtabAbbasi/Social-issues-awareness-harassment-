@@ -1,0 +1,112 @@
+    
+    body
+    {
+        background-color:  #E9EBEB;
+    }
+    .Harrasment-border {
+     background-color: #E9EBEB;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 900px;
+    }
+    .container
+    {
+      width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    
+    .navbar-brand, .navbar-text {
+      color: white;
+    }
+    .nav-icon {
+      font-size: 24px;
+      margin-right: 10px;
+      color: #EC407A;
+    }
+    .nav-heading {
+      color: black;
+    }
+   
+    .nav-image {
+    max-width: 50px;
+    height: auto;
+    border-radius: 30px; 
+    overflow: hidden; 
+    margin-left: 10px;
+    }
+    .content-image {
+      max-width: 100%;
+      height: auto;
+      mix-blend-mode:darken;
+      border: none;
+    }
+
+   
+    .icon-box {
+      text-align: center;
+      padding: 30px;
+      border-radius: 10px;
+      background: var(--white, #FFF);
+    }
+    .col
+    {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+ 
+    
+    .container .row .col {
+      padding: 10px 20px 10px 20px; 
+    }
+
+    .container .row .col.text-center {
+     background-color: #f8f9fa; 
+     padding: 20px;
+    }
+
+    .container .row .col.text-center:hover {
+     background-color: #e9ecef;
+    
+    }
+   
+
+
+   
+    @media (max-width:576px)
+    {
+      .Harrasment-border
+   {
+    margin: 0px;
+    padding: 10px 10px 0px 10px; 
+  
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+   }
+   h2
+    {
+      font-size: 25px;
+    }
+    h3
+    {
+    font-size: 13px ;
+    }
+   .Articles
+   {
+    padding-left: 5px;
+   }
+   .Self-Defense
+   {
+    padding-right: 5px;
+   }
+   .footer-icon
+   {
+    padding: 0px;
+    
+   }
+  
+
+    }
